@@ -1,3 +1,4 @@
+import { AiOutlineMenu } from "react-icons/ai"
 
 export const NeutralButton = () => {
   return (
@@ -14,4 +15,15 @@ export const ContactButton = () => {
     </div>
   )
 }
+export const ChatButton = () => {
+  return (
+    <div className="order z-20">
+        <div style={{borderBottomLeftRadius:'50%',borderBottomRightRadius:'50%',borderTopLeftRadius:'50%',borderTopRightRadius:'5px'}} 
+        className="p-4 bg-green-500 hover:bg-green-400 fixed bottom-20 right-10 cursor-pointer">
+          <AiOutlineMenu color='white' size={'30'}/>
+        </div>
+      </div>
+  )
+}
+
 

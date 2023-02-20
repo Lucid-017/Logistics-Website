@@ -9,8 +9,8 @@ const Testimonials = () => {
         <div className='p-20 imt'>    
         <div className="-z-1 w-full h-full bg-gradient-to-r from-black to-ash-100 top-0 left-0 absolute opacity-40"></div>
 
-            <div className="grid lg:grid-cols-2 z-10  ">
-                <div className="div1 text-white ">
+            <div className="grid lg:grid-cols-2 z-10 gap-10  ">
+                <div className="div1 text-white">
                     <FaQuoteLeft className='text-3xl right-5 relative' />
                     <ReviewCarousel/>  
                 </div>

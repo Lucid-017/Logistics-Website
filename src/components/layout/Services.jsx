@@ -5,6 +5,7 @@ import {GoPackage} from 'react-icons/go'
 import {GiFullMotorcycleHelmet} from 'react-icons/gi'
 import {SiHandshake} from 'react-icons/si'
 import { HiOutlineMinus } from 'react-icons/hi'
+import { AiOutlineMenu } from 'react-icons/ai'
 
 
 
@@ -37,6 +38,7 @@ const Services = ({img,heading,content}) => {
           </div>
 
         </div>
+        
     </div>
   )
 }

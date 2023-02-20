@@ -3,7 +3,7 @@ import {BsArrowRight} from 'react-icons/bs'
 
 const Features = ({png,title,text}) => {
     return (
-        <div className="rounded-lg card bg-white shadow-lg " >
+        <div className="rounded-lg card bg-white shadow-xl hover:shadow-2xl " >
             <div className="img mb-4">
                 <img className='object-cover rounded w-full h-full overflow-hidden' src={png} alt="" srcset="" />
             </div>

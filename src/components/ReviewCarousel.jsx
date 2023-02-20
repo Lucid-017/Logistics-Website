@@ -8,7 +8,7 @@ export const Review = ({name,location,review})=>{
     return(
         <div>
           <div className="mb-8 mt-3 text-start">
-              <p className="text-2xl font-semibold">
+              <p className="text-2xl font-semibold ">
                   {review}
               </p>
              
